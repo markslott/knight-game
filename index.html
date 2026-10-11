@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Knight's Leap</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="view" aria-label="Knight's Leap"></canvas>
+      <div id="frame"></div>
+      <div id="hud" hidden>
+        <div class="hud-left">
+          <div id="hearts"></div>
+          <div class="stamina" title="Stamina">
+            <div id="stamina-fill"></div>
+          </div>
+          <div id="boon-line"></div>
+        </div>
+        <div id="floor-line"></div>
+        <div id="score-line"></div>
+      </div>
+      <div id="overlay" class="active"></div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
